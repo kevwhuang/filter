@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List: Filtering</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+
+</head>
+
+<body>
+
+    <div>
+
+        <button onclick="fetchNow()">Fetch</button>
+        <button onclick="log()">Log</button>
+        <button onclick="containerOl.innerHTML=null">Clear</button>
+        <button onclick="location.reload()">Refresh</button>
+        <button class="interact" onclick="populate()">Populate</button>
+        <button class="interact" onclick="filter()">Filter</button>
+        <button class="interact" onclick="complete()">Complete</button>
+        <button class="interact" onclick="incomplete()">Incomplete</button>
+
+    </div>
+
+    <form>
+
+        <label for="ID">User Id</label>
+        <input id="ID" type="number" value="5" min="1" max="10">
+
+    </form>
+
+    <ol id="tdl"></ol>
+
+</body>
+
+</html>

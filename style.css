@@ -1,0 +1,58 @@
+* {
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    background: tan;
+}
+
+button {
+    background: seagreen;
+    border: 5px outset steelblue;
+    color: azure;
+    height: 100px;
+    margin: 20px 50px;
+    width: 200px;
+}
+
+button.interact {
+    border-color: slateblue;
+}
+
+button:active {
+    background-color: maroon;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+form {
+    color: maroon;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+input {
+    background: slategray;
+    color: azure;
+}
+
+ol {
+    border: 1px solid slategray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-position: inside;
+    margin: 20px 0;
+    padding: 20px;
+}
